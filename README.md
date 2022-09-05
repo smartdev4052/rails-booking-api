@@ -1,17 +1,3 @@
-# Samedi Rails API Client
-
-[![Build Status](https://travis-ci.com/samedi/rails-booking-api.svg?branch=master)](https://travis-ci.com/samedi/rails-booking-api)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a6e420e01c5f81df5b1b/maintainability)](https://codeclimate.com/github/samedi/rails-booking-api/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a6e420e01c5f81df5b1b/test_coverage)](https://codeclimate.com/github/samedi/rails-booking-api/test_coverage)
-
-This application is a reference implementation of the [samedi&reg; Booking API](https://wiki.samedi.de/display/doc/Booking+API) client in Ruby.
-It relies on the [omniauth-samedi](https://github.com/samedi/omniauth-samedi) gem to implement OAuth2 authentication to samedi&reg; Booking API.
-
-This is a web application that allows a user to book an appointment for a given clinic.
-
-## Demo
-
-You can explore the demo of the app online: https://samedi-rails-booking-api.herokuapp.com
 
 ## Requirements
 
@@ -26,7 +12,6 @@ $ cd rails-booking-api
 $ bin/setup
 ```
 
-Register your own [samedi API Credentials](https://patient.samedi.de/api/signup) and update your local `.env` file.
 
 ## Architecture
 
